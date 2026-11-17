@@ -1,0 +1,26 @@
+{
+  "kind": "permit",
+  "revision": "r1",
+  "permit": "PER-3",
+  "generator": "GEN-3",
+  "site": "FAC-3",
+  "fuel": "gas",
+  "capacity_mw": 25,
+  "phase": "approved",
+  "period": {
+    "start": "2025-01",
+    "end": "2025-12"
+  },
+  "attachments": [
+    {
+      "name": "permit-PER-3.pdf",
+      "content_type": "application/pdf",
+      "sha256": "0d41cfce7ae91f0d15c5fac1b7d499cbc64bd8743210e935b4e8d9026916e2e5",
+      "content_base64": "JVBERi0xLjQKc3ludGhldGljIHBlcm1pdCBQRVItMyBmb3IgR0VOLTMKJSVFT0YK"
+    },
+    {
+      "name": "site-plan.pdf",
+      "url": "https://permit.example.test/files/site-plan.pdf"
+    }
+  ]
+}

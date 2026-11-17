@@ -1,0 +1,11 @@
+{
+  "kind": "filing",
+  "revision": "r1",
+  "filing": "RUN-41",
+  "generator": "GEN-4",
+  "site": "FAC-4",
+  "phase": "trial",
+  "period": "2024-11",
+  "generation_mwh": 5,
+  "late": true
+}

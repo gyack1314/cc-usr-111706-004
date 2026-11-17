@@ -1,0 +1,12 @@
+{
+  "kind": "equipment",
+  "revision": "r1",
+  "equipment": "EQ-30",
+  "generator": "GEN-3",
+  "site": "FAC-3",
+  "fuel": "gas",
+  "model": "CAT-3516",
+  "capacity_mw": 24,
+  "phase": "installed",
+  "period": "2025-02"
+}

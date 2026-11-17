@@ -1,0 +1,15 @@
+{
+  "kind": "equipment",
+  "revision": "r2",
+  "equipment": "EQ-41",
+  "generator": "GEN-4",
+  "site": "FAC-4",
+  "fuel": "diesel",
+  "model": "CAT-3516",
+  "capacity_mw": 20,
+  "phase": "installed",
+  "period": "2025-05",
+  "replaces": [
+    "EQ-40"
+  ]
+}

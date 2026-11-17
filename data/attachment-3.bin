@@ -1,0 +1,11 @@
+{
+  "kind": "equipment",
+  "revision": "r1",
+  "equipment": "EQ-60",
+  "generator": "GEN-6",
+  "site": "FAC-6",
+  "fuel": "gas",
+  "capacity_mw": 11,
+  "phase": "installed",
+  "period": "2025-02"
+}

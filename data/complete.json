@@ -1,0 +1,72 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "complete-1.bin",
+        "status": 200,
+        "bytes": 625,
+        "sha256": "899d7b4680254b472f574570ca6c71c9fa3e04ba36718cd7cea68a15d5640331"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/equipment/GEN-3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "complete-2.bin",
+        "status": 200,
+        "bytes": 221,
+        "sha256": "d1467ca965f1648b32a6e64e537c3a432c183d528f47bafd70981883c17ca32c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-30",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "complete-3.bin",
+        "status": 200,
+        "bytes": 175,
+        "sha256": "adc1df84da95dd76294a0796d53a14d56d638da833d46b27ed499d3c7d1c71b5"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-31",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "complete-4.bin",
+        "status": 200,
+        "bytes": 182,
+        "sha256": "2ba9e26d942dfe8e154b079ba19584747952017bc3e949c23d03f3d32ec2ac15"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-32",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "complete-5.bin",
+        "status": 200,
+        "bytes": 182,
+        "sha256": "2d4d722f4203e9b26fa885ad365a2f561936df4a42b03dbc48070ef262b9bd72"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "filing",
+  "revision": "r1",
+  "filing": "RUN-80",
+  "unit_id": "GEN-8",
+  "facility_id": "FAC-8A",
+  "phase": "operational",
+  "reporting_period": [
+    "2025-04-01",
+    "2025-04-30"
+  ],
+  "generation": {
+    "value": 210,
+    "unit": "MWh"
+  }
+}

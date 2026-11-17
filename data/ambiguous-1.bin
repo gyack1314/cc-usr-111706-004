@@ -1,0 +1,10 @@
+{
+  "kind": "permit",
+  "revision": "r1",
+  "permit": "PER-5",
+  "generator": "GEN-5",
+  "site": "FAC-A",
+  "fuel": "gas",
+  "capacity_mw": 10,
+  "phase": "approved"
+}

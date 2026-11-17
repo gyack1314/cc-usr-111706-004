@@ -1,0 +1,9 @@
+{
+  "kind": "filing",
+  "revision": "r1",
+  "filing": "RUN-50",
+  "generator": "GEN-6",
+  "phase": "operational",
+  "period": "2025-04",
+  "generation_mwh": 30
+}

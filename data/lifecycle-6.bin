@@ -1,0 +1,11 @@
+{
+  "kind": "withdrawal",
+  "revision": "r1",
+  "withdrawal": "WDR-4",
+  "permit": "PER-4",
+  "generator": "GEN-4",
+  "site": "FAC-4",
+  "status": "revoked",
+  "phase": "withdrawn",
+  "period": "2025-06"
+}

@@ -1,0 +1,34 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-12",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-url-1.bin",
+        "status": 200,
+        "bytes": 328,
+        "sha256": "80e1bd19a129545ca3b8f117157cc1ded67521299d4e0207df4c2ee84174f8bc"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/files/permit-PER-12.pdf",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-url-2.bin",
+        "status": 200,
+        "bytes": 37,
+        "sha256": "0508319fac42718c2d088de336d74763495b060a0110c7196d88c5d1f10fde3c",
+        "content_type": "application/pdf"
+      }
+    }
+  ]
+}

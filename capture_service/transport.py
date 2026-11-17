@@ -36,5 +36,7 @@ class Replay:
         self.position+=1
         receipt={'method':method,'url':url,'status':meta['status'],'body_sha256':meta['sha256'],
                  'bytes':len(raw),'credential_scope':credential_scope,'step':self.position}
+        for key in ('content_type','media_type','attachment_of','attachment_name','filename'):
+            if key in meta:receipt[key]=meta[key]
         self.receipts.append(receipt)
         return raw,receipt

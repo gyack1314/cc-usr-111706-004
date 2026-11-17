@@ -1,0 +1,17 @@
+{
+  "kind": "permit",
+  "revision": "r1",
+  "permit": "PER-12",
+  "generator": "GEN-12",
+  "site": "FAC-12",
+  "fuel": "gas",
+  "capacity_mw": 6,
+  "phase": "approved",
+  "period": "2025",
+  "attachments": [
+    {
+      "name": "permit-PER-12.pdf",
+      "url": "https://permit.example.test/files/permit-PER-12.pdf"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-5",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "ambiguous-1.bin",
+        "status": 200,
+        "bytes": 168,
+        "sha256": "7bed2597c43a67c237c24ca0ef035cf4119713dec8c49544f3b0d251a74b4ef8"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/equipment/GEN-5",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "ambiguous-2.bin",
+        "status": 200,
+        "bytes": 174,
+        "sha256": "dfa0bc9f6a413b1ca4afe298862f18eced73aaa8066dbaec0e6a62b6d50392d5"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-50",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "ambiguous-3.bin",
+        "status": 200,
+        "bytes": 162,
+        "sha256": "7a1afcd5e570730b78ed58847fd65fc31faefffcfa6fc577e3cb5c5ded844ef3"
+      }
+    }
+  ]
+}

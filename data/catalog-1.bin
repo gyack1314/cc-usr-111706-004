@@ -1,0 +1,42 @@
+{
+  "revision": "r1",
+  "records": [
+    {
+      "record_type": "permit",
+      "permit_number": "PER-7",
+      "unit_id": "GEN-7",
+      "facility_id": "FAC-7",
+      "fuel_type": "natural gas",
+      "capacity": "9.5 MW",
+      "status": "active",
+      "effective_from": "2025-01-01",
+      "effective_to": "2026-12-31",
+      "documents": [
+        {
+          "title": "permit-PER-7",
+          "url": "https://permit.example.test/files/PER-7.pdf"
+        }
+      ]
+    },
+    {
+      "record_type": "permit",
+      "permit_number": "PER-8",
+      "unit_id": "GEN-8",
+      "facility_candidates": [
+        "FAC-8A",
+        "FAC-8B"
+      ],
+      "fuel_type": "diesel",
+      "capacity": 3,
+      "status": "active"
+    },
+    {
+      "record_type": "permit",
+      "permit_number": "PER-9",
+      "unit_id": "GEN-9",
+      "capacity": "1,200 kW",
+      "status": "expired",
+      "fuel_type": "diesel"
+    }
+  ]
+}

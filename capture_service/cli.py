@@ -8,10 +8,11 @@ def main():
     p=argparse.ArgumentParser()
     p.add_argument('command',choices=['inspect'])
     p.add_argument('manifest')
+    p.add_argument('--collection',default='generators')
     args=p.parse_args()
     replay=Replay(args.manifest)
     db=connect(':memory:')
-    collection='generators'
+    collection=args.collection
     for step in replay.steps:
         req=step['request']
         raw,receipt=replay.request(req['method'],req['url'])

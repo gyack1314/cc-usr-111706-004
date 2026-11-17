@@ -1,0 +1,14 @@
+{
+  "kind": "permit",
+  "revision": "r1",
+  "permit": "PER-4",
+  "generator": "GEN-4",
+  "site": "FAC-4",
+  "fuel": "diesel",
+  "capacity_mw": 20,
+  "phase": "approved",
+  "period": {
+    "start": "2025-01",
+    "end": "2025-12"
+  }
+}

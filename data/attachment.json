@@ -1,0 +1,66 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-6",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-1.bin",
+        "status": 200,
+        "bytes": 409,
+        "sha256": "842408f0c2fab2af4c96cd641b76f75aabe1e038ff7ab9202a63c4126e201090"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/files/permit-PER-6.pdf",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-2.bin",
+        "status": 200,
+        "bytes": 49,
+        "sha256": "a2dd1a41d1e7abb768b49a69e464e5493167b4e315c86b6b7f64d8d0c1470944",
+        "content_type": "application/pdf",
+        "attachment_of": {
+          "type": "generator",
+          "id": "PER-6",
+          "version": "r1",
+          "name": "permit-PER-6.pdf"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/equipment/GEN-6",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-3.bin",
+        "status": 200,
+        "bytes": 198,
+        "sha256": "3c7b9884eebc528d701393225ac8d79c0ef2d635a6e0f25cf6e25ae303e8c283"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-6/withdrawal",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attachment-4.bin",
+        "status": 200,
+        "bytes": 659,
+        "sha256": "b91c23309c3e6674185e24806466914eb06dfa7cf06c4d0ba63467be0f086798"
+      }
+    }
+  ]
+}

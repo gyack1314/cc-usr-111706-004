@@ -1,0 +1,10 @@
+{
+  "kind": "equipment",
+  "revision": "r1",
+  "equipment": "EQ-50",
+  "generator": "GEN-5",
+  "site": "FAC-B",
+  "fuel": "gas",
+  "capacity_mw": 9,
+  "phase": "installed"
+}

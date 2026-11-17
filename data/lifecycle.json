@@ -1,0 +1,85 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-1.bin",
+        "status": 200,
+        "bytes": 235,
+        "sha256": "fd23cb56f0d8d0f1ebbd3e9bf35e0070a3fb30d475e263d35aa0526261bc0cf3"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/equipment/GEN-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-2.bin",
+        "status": 200,
+        "bytes": 224,
+        "sha256": "4de5d73d20b66c1a0356d2686fb752dcfc9ce0b0a9fee5db86f4b0e38a86a19f"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-40",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-3.bin",
+        "status": 200,
+        "bytes": 182,
+        "sha256": "6df2b27a1738364c8f9703f438d44f3c8b2f06e27431587221d8ac25a41d2af9"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/equipment/GEN-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-4.bin",
+        "status": 200,
+        "bytes": 257,
+        "sha256": "67f99351e33589bf37742c28383dcba36c5584233f520cd5179386e3e2bf70a1"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/filings/RUN-41",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-5.bin",
+        "status": 200,
+        "bytes": 190,
+        "sha256": "83f3489b66ff5ca3823ebda5efca7c8e0a1d52aec32244dfb97bb34494f0ec50"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/permits/PER-4/withdrawal",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "lifecycle-6.bin",
+        "status": 200,
+        "bytes": 206,
+        "sha256": "c20b9f91d888af0d209d0b4101dd2763ab2e5f3bad88f49a5ca9a720bb107f3e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "withdrawal",
+  "revision": "r1",
+  "withdrawal": "WDR-6",
+  "permit": "PER-6",
+  "generator": "GEN-6",
+  "site": "FAC-6",
+  "status": "revoked",
+  "period": "2025-05",
+  "attachments": [
+    {
+      "name": "revocation-WDR-6.pdf",
+      "url": "https://permit.example.test/files/revocation-WDR-6.pdf",
+      "sha256": "a2dd1a41d1e7abb768b49a69e464e5493167b4e315c86b6b7f64d8d0c1470944",
+      "content_base64": "JVBERi0xLjQKc3ludGhldGljIHJldm9jYXRpb24gbm90aWNlIFdEUi02CiUlRU9GCg=="
+    },
+    {
+      "name": "revocation-letter.pdf",
+      "url": "https://permit.example.test/files/revocation-letter.pdf",
+      "content_base64": null
+    }
+  ]
+}

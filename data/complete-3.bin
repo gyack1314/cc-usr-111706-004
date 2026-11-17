@@ -1,0 +1,10 @@
+{
+  "kind": "filing",
+  "revision": "r1",
+  "filing": "RUN-30",
+  "generator": "GEN-3",
+  "site": "FAC-3",
+  "phase": "trial",
+  "period": "2025-03",
+  "generation_mwh": 12
+}
