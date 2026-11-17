@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://permit.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 139,
+        "sha256": "c90557f7a3b427e5f963ed4017728c9ef70ce25688e171919c5a9c8139c27e0e"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://permit.example.test/onsite-generation/support",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 110,
+        "sha256": "24d2d8698bc87b8ed7fcc1da695fe99f89dfad4c6380e27bbe659d6842b77080"
+      }
+    }
+  ]
+}

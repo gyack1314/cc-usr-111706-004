@@ -1,0 +1,9 @@
+{
+  "generator": "GEN-1",
+  "revision": "r1",
+  "permit": "PER-1",
+  "site": "SITE-2",
+  "fuel": "gas",
+  "mw": 15,
+  "phase": "approved"
+}
